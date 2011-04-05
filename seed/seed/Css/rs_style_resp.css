@@ -1,0 +1,134 @@
+#tp_mainNav {
+	display: none;
+}
+@media only screen and (max-width: 1480px){
+	#tp_mainNav li a {
+		padding: 17px 15px;
+	}
+	.tp_headSearch .tp_searchButton {
+		padding: 0 15px;
+	}
+	.tp_headSearch .tp_searchField {
+		width: 100px;
+	}
+}
+@media only screen and (max-width: 1350px){
+	#tp_mainNav li {
+		font-size: 13px;
+	}
+	#tp_mainNav li a {
+		padding: 17px 12px;
+	}
+}
+@media only screen and (max-width: 1245px){
+	#tp_mainNav li a {
+		padding: 17px 8px;
+	}
+}
+@media only screen and (max-width: 1220px){
+	.tp_footCol {
+		float: right;
+		width: 66.66%;
+		clear: right;
+		margin-bottom: 10px;
+	}
+	.tp_footCol ul li {
+		float: left;
+		width: 50%;
+	}
+	.tp_footCol ul li.tp_footTitle {
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+	.tp_footCol ul li h3 {
+		padding: 5px;
+	}
+}
+@media only screen and (max-width: 1185px){
+	.tp_headBottom {
+		height: auto;
+	}
+	.tp_headSearch {
+		float: none;
+		clear: both;
+	}
+}
+@media only screen and (min-width: 1025px){
+	#tp_mainNav {
+		display: block !important;
+	}
+}
+@media only screen and (max-width: 1025px){
+	.tp_mainLogo img {
+		width: 300px;
+	}
+	.tp_headRight {
+		margin-top: 0;
+	}
+	.tp_headRight a img {
+		width: 24px;
+	}
+	.tp_headBottom {
+		height: auto;
+		background-color: #eeeeee;
+		background-image: none;
+	}
+	#tp_navToggle {
+		display: block;
+	}
+	#tp_mainNav {
+		float: none;
+		padding: 0;
+		border-top: 1px solid #cccccc;
+	}
+	#tp_mainNav li {
+		display: block;
+		line-height: 1;
+	}
+	#tp_mainNav li a {
+		padding: 12px 25px;
+	}
+	#tp_mainNav li:hover a {
+		color: #222222;
+		background-color: transparent;
+		border-radius: 0;
+	}
+	#tp_mainNav li a i {
+		display: none;
+	}
+	#tp_mainNav li:hover .tp_dropNav {
+		display: none;
+	}
+}
+@media only screen and (max-width: 750px){
+	.tp_footLeft {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.tp_footCol {
+		float: left;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 500px){
+	.tp_mainLogo img {
+		width: 200px;
+	}
+	.tp_headRight a {
+		margin: 5px 3px;
+	}
+	.tp_headSearch .tp_searchField {
+		height: 44px;
+	}
+	#tp_mainContent {
+		padding: 10px 0;
+	}
+	.tp_footTop {
+		padding: 20px 15px;
+	}
+	.tp_footTop p.tp_topNav a {
+		margin-right: 10%;
+		font-size: 16px;
+	}
+}

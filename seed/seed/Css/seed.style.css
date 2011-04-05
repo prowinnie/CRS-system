@@ -1,0 +1,255 @@
+html, body{font-family:'Open Sans', 'Arial Narrow', Arial, sans-serif;}
+iframe[name="google_conversion_frame"]{display:none;}
+#header{display:none;}
+header{width:100%;margin:0 auto;padding:1px 0 0;}
+header .elements{display:block;width:100%;max-width:1750px;margin:0 auto;}
+header .elements .logo{}
+header .elements .logo img{width:100%;max-width:604px;min-width:250px;}
+header .elements .social{text-align:right;padding-top:25px;}
+header .elements .social ul{width:100%;list-style:none;}
+header .elements .social ul li{display:inline-block;padding:10px;text-align:center;}
+header .Statement{font-family:'Open Sans', 'Arial Narrow', Arial, sans-serif;color:#fff;text-align:center;padding:20px 0;margin-top:2px;font-size:16px;background:rgb(244,128,32);background:-moz-linear-gradient(left, rgba(244,128,32,1) 0%, rgba(244,167,32,1) 50%, rgba(244,128,32,1) 100%);background:-webkit-linear-gradient(left, rgba(244,128,32,1) 0%,rgba(244,167,32,1) 50%,rgba(244,128,32,1) 100%);background:linear-gradient(to right, rgba(244,128,32,1) 0%,rgba(244,167,32,1) 50%,rgba(244,128,32,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f48020', endColorstr='#f48020',GradientType=1);}
+header .Statement a{color:#fff;text-decoration:underline;background:None;}
+header .navBG{background:transparent url('http://www.carrentalsavers.com/images/nav-bg-repeat.jpg') 0 0 repeat-x;min-height:70px;margin:0;padding:0;}
+header .navBG .row{background:transparent url('http://www.carrentalsavers.com/images/nav-bg-repeat.jpg') 0 0 repeat-x;width:100%;margin:0 auto;}
+header .navBG .row div{margin:0;padding:0 5px;}
+header .navbar-default{margin:0;padding:0;margin-top:14px;border:none;z-index:1;}
+header .dropdown-menu{width:100%;min-width:190px;}
+header .navBG .row div.search{background-color:#313131;height:68px;padding:1px 0 0;text-align:center;position:relative;}
+header .search form{float:none;display:inline-block;margin:0 auto;height:68px;width:100%;}
+header .search form table{width:100%;}
+header .search form table td:nth-of-type(1){width:68px;}
+header .search input.searchBtn{float:left;background:none;border:none;margin:0;padding:0;background:transparent url('http://www.carrentalsavers.com/images/search_btn.png') 0 0 no-repeat;width:68px;height:67px;}
+header .search input.searchInput{float:left;margin:0;padding:0 5px;height:67px;position:relative;background:transparent;border:1px dotted #999;color:#fff;width:100%;}
+header .search input.searchInput:focus{background:#fff;color:#000;}
+@media only screen and (max-width:767px){header .elements .logo{text-align:center;}
+header .elements .social{text-align:center;}
+header .navbar-header:before{content:"Menu";padding:20px;position:absolute;top:-19px;left:-10px;font-size:34px;}
+header .navbar-default{margin:4px 0;}
+header .navbar-nav{margin:0 10px;}
+}
+@media only screen and (min-width:768px){header .elements .logo img{width:300px;}
+header li:nth-of-type(1) img,
+header li:nth-of-type(2) img{width:35px !important;}
+header li:nth-of-type(3) img,
+header li:nth-of-type(4) img{width:24px;}
+header .elements .social{padding-top:0px;text-align:center;}
+header .elements .social ul li{padding:10px 5px;}
+header .navbar-default{background:none;box-shadow:none;}
+header .navbar-nav{font-size:9.8px;}
+header .navbar-nav>li>a{padding:17px 7px;}
+header .container-fluid{}
+header li.dropdown:last-of-type .dropdown-menu{left:auto;right:0;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{border-top-right-radius:8px;border-top-left-radius:8px;background:#f48020;color:#fff;}
+header .Statement{font-size:12px;padding:20px 10px;}
+}
+@media only screen and (min-width:1024px){header .elements .logo img{width:390px;}
+header li:nth-of-type(1) img,
+header li:nth-of-type(2) img{width:67px !important;}
+header li:nth-of-type(3) img,
+header li:nth-of-type(4) img{width:39px;}
+header .navbar-nav>li>a{padding:17px 13px;}
+header .Statement{font-size:11px;padding:20px 10px;}
+header .Statement{font-size:13px;}
+}
+@media only screen and (min-width:1280px){header .elements .social{text-align:right;}
+header .elements .social ul li{padding:10px;}
+header .navbar-nav{font-size:13px;}
+header li.dropdown:last-of-type .dropdown-menu{left:0;right:auto;}
+}
+@media only screen and (min-width:1366px){header .search form{float:left;}
+header .navbar-nav{font-size:14px;}
+header .navbar-nav>li>a{padding:17px 15px;}
+header .elements .logo img,
+header img{width:100%;}
+header .elements .social{padding-top:25px;}
+header .Statement{font-size:14px;}
+}
+@media only screen and (min-width:1480px){header .navbar-nav>li>a{padding:17px 20px;}
+header .Statement{font-size:16px;}
+header .navBG .row{max-width:1555px;}
+}
+@media only screen and (min-width:1800px){header .navbar-nav>li>a{padding:17px 28px;}
+}
+.unSure{display:none;}
+main{}
+main > .row{background-color:#fff;margin:0;padding:30px 5px;}
+main > .row:nth-of-type(even){background-color:#f4f4f4;}
+main .CarSearch .row{margin:0;padding:0;}
+main .CarSearch .row input[type="text"],
+main .CarSearch .row select{width:100%;text-align:left;height:40px;padding:5px;margin:1px 0;}
+main .CarSearch .row input[type=checkbox],
+main .CarSearch .row input[type=radio]{padding:5px;height:20px;width:20px;position:relative;top:3px;}
+main .CarSearch .row h3{font-size:16px;text-align:left;margin-top:10px;}
+main .CarSearch .row .differentDropOff label{float:left;clear:right;margin:0 10px;}
+main .CarSearch .row input[type="submit"]{background-color:#f48020;color:#fff;border:1px solid #eee;box-shadow:none;padding:5px;}
+main .PickADate{width:50%;margin:0 auto;border:1px solid #999;padding:10px 0;box-shadow:0 0 10px #ddd;border-radius:8px;}
+main .featuredIconList table{width:98%;margin:0 auto;}
+main .featuredIconList td{text-align:left;padding:5px;width:12.5%;vertical-align:top;}
+main .featuredIconList td img,
+main .featuredIconList td p{margin:5px;width:90%;font-weight:bold;}
+main .featuredIconList td img:nth-of-type(1){max-width:245px;}
+main .featuredIconList td img:nth-of-type(2){max-width:113px;}
+main .featuredIconList td span.new{color:#ec5303;}
+main .featuredIconList td span.extended{color:#343c91;}
+
+main .dash img{margin-top:120px;margin-left:-30px;}
+#content{width:100%;margin:0 auto;}
+main .CarSearch.subPage .row,
+main .CarSearch.subPage .row h3{font-size:12px;}
+main .CarSearch.subPage .row input[type="text"], main .CarSearch.subPage .row select{padding:1px 5px;height:30px;}
+.supPageOption td{vertical-align:middle;}
+.supPageOption td p{text-align:left;padding:0 0 10px;margin:0;}
+#SignUp{background-color:#f0efef;padding:6px;border:1px solid #a1a0a0;}
+#SignUp h3{background-color:#f48020;color:#fff;text-align:center;padding:5px;margin:0;font-size:18px;font-family:'Open Sans', 'Arial Narrow', Arial, sans-serif;}
+#SignUp .signupframe{width:100%;border:1px solid #a1a0a0;margin:5px 0;background:rgb(255,255,255);background:-moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(228,227,227,1) 100%);background:-webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(228,227,227,1) 100%);background:linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(228,227,227,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e4e3e3',GradientType=1);}
+#SignUp .signupframe td{text-align:left;padding:5px;}
+#SignUp .signupframe td input,
+#SignUp .signupframe td select{width:100%;padding:5px;border:none;box-shadow:1px 1px 1px #ccc inset;}
+#SignUp .note{font-size:10px;}
+#SignUp .signupframe td input[type="submit"]{background-color:#f48020;color:#fff;border:1px solid #eee;box-shadow:none;}
+@media only screen and (max-width:992px){main .CarSearch .row input[type="text"],
+main .CarSearch .row select{height:30px;}
+main .PickADate{width:90%;}
+main .supPageOption img{width:80%;}
+}
+@media only screen and (max-width:767px){main .featuredIconList td{display:inline-block;width:50%;text-align:center;padding:20px 5px;}
+main .featuredIconList td img,
+main .featuredIconList td p{width:100%;}
+main .dash img{margin:20px 0 0;}
+}
+.left,
+#right, .right{width:100%;float:none;display:inline-block;}
+.clear{clear:both;}
+.box{width:292px;padding:0 6px 15px;}
+#accordion{text-align:left;}
+.rentalDeal p{margin-left:0px;}
+@media only screen and (max-width:1400px){.rentalDeal img{width:200px;}
+.rentalDeal .dash img{width:80px;margin-top:90px;margin-left:0px;}
+}
+@media only screen and (max-width:1024px){.rentalDeal img{width:200px;}
+.rentalDeal .dash img{width:179px;margin-top:30px;}
+}
+@media only screen and (max-width:767px){html, body{font-size:13px;}
+.h1, h1{font-size:20px;}
+.h2, h2{font-size:18px;}
+.h3, h3{font-size:16px;}
+header .Statement{font-size:12px;padding:20px 10px;}
+#accordion{font-size:10px;}
+.rentalDeal img{width:200px;}
+.rentalDeal .dash img{width:179px;margin-top:30px;}
+.left_articles{margin:0;}
+}
+@media only screen and (min-width:768px){.h1, h1{font-size:24px;}
+}
+@media only screen and (min-width:1024px){.h1, h1{font-size:26px;}
+}
+@media only screen and (min-width:1280px){.h1, h1{font-size:28px;}
+main > .row{padding:10px 5px;}
+}
+@media only screen and (min-width:1366px){.h1, h1{font-size:30px;letter-spacing:-1px;}
+}
+@media only screen and (min-width:1480px){.h1, h1{font-size:32px;}
+main > .row{padding:20px 5px;max-width:1555px;margin:0 auto;}
+}
+@media only screen and (min-width:1920px){.h1, h1{font-size:36px;}
+}
+footer{float:left;clear:both;width:100%;background-color:#222222;}
+footer p{margin:0;}
+footer .footerNav{background-color:#cecdcd;width:100%;}
+footer .footerNav a{color:#222222;}
+footer .footerNav div{padding:40px 0;width:100%;max-width:1555px;margin:0 auto;}
+footer .footerNav .sites{margin-left:5%;margin-top:10px;}
+footer .footerNav .footerMenu{color:#222222;font-size:18px;width:100%;float:left;clear:both;margin-bottom:20px;}
+footer .footerNav .footerMenu a{float:left;clear:right;width:auto;margin-left:5%;padding:5px;color:#222222;text-align:center;}
+footer .row{display:table;clear:both;height:auto;width:100%;max-width:1555px;margin:0 auto;padding:40px 0;}
+footer .footerSubNav img{width:100%;max-width:373px;margin-bottom:45px;}
+footer .footerSubNav p,
+footer .footerSubNav p a{color:#fff;text-align:justify;line-height:24px;}
+#footer1{clear:none;height:auto;padding:0;border-top:none;}
+#footer1 ul {width: auto;padding: 0 10px;float: left;list-style: none;
+}
+#footer1 ul li{padding:3px 5px;}
+#footer1 ul li a{color:#fff;text-decoration:underline;}
+#footer1 .title{float:left;width:320px;background-color:#f48020;color:#fff;margin:0 2px 10px;padding:1px 5px;font-weight:bold;font-size:22px;font-family:'Open Sans', 'Arial Narrow', Arial, sans-serif;}
+@media only screen and (max-width:767px){#footer1{text-align:center;}
+#footer1 ul{width:100%;margin-top:20px;text-align:left;}
+#footer1 .title{width:100%;}
+#footer1 ul li{width:50%;float:left;clear:right;}
+}
+@media only screen and (max-width:320px){#footer1 ul li{width:100%;float:left;clear:both;}
+}
+@media only screen and (min-width:767px){#footer1 ul{width:100%;}
+#footer1 .title{width:100%;}
+#footer1 ul li{width:50%;float:left;clear:right;}
+}
+@media only screen and (min-width:1024px){#footer1 ul{width:auto;}
+#footer1 .title{width:310px;}
+#footer1 ul li{width:310px;float:left;clear:both;}
+}
+#calendarBoxArrive, #calendarBoxDepart{width:250px;}
+.calcontainer, .calcontainer table{width:100%;height:150px;}
+.calheader{padding:1px 20px;}
+
+.snap-carousel,
+.snap-carousel .group,
+.snap-carousel .group ul{height:305px;margin:0 auto;padding:0;position:relative;}
+.snap-carousel .group{height:300px;width:auto;position:absolute;left:60px;right:60px;overflow:hidden;}
+.snap-carousel .group ul{list-style:none;margin:0;padding:0;}
+.snap-carousel .group > ul > li{display:inline-block;height:300px;margin:0;padding:0;}
+.snap-carousel .group > ul > li > div{float:left;clear:right;padding:5px 20px;margin:0;position:absolute;top:0;bottom:0;left:5px;right:5px;border:1px solid #999;height:300px;box-shadow:2px 2px 2px #ccc;background-color:#fff;}
+.snap-carousel .group > ul > li img{float:left;margin:0;}
+.snap-carousel .group > ul > li p{float:left;}
+.snap-carousel .group > ul > li a{float:left;}
+.snap-carousel .group > ul > li div table,
+.snap-carousel .group > ul > li div table td{border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;}
+.snap-carousel .group > ul > li div table td{border:0;margin:0;padding:0;border-collapse:collapse;border-spacing:0;}
+.snap-carousel .left-nav,
+.snap-carousel .right-nav{position:absolute;width:29px;height:42px;opacity:0.2;}
+.snap-carousel .left-nav{left:5px;width:40px;height:100%;background:transparent url("http://www.carrentalsavers.com/seed/Images/left-arrow.png") no-repeat;background-position:center center;}
+.snap-carousel .right-nav{right:5px;width:40px;height:100%;background:transparent url("http://www.carrentalsavers.com/seed/Images/right-arrow.png") no-repeat;background-position:center center;}
+.snap-carousel .left-nav:hover,
+.snap-carousel .right-nav:hover{cursor:pointer;opacity:1;}
+.snap-carousel .group > ul > li h2{float:right;margin:0 -20px 0 0;padding:5px;background-color:#f48020;color:#fff;}
+.snap-carousel .group > ul > li img{width:190px;height:100px;float:left;margin:0;}
+.snap-carousel .group > ul > li p{float:left;clear:both;text-align:left;width:100%;border-top:1px dotted #eee;padding-top:10px;}
+@media only screen and (max-width:767px){.snap-carousel .group > ul > li h2{font-size:16px;}
+.snap-carousel .group > ul > li img{width:190px;}
+.snap-carousel .group > ul > li p{font-size:12px;}
+}
+
+
+
+
+
+
+/*Custome Form Responsive layout Rules*/
+
+.rs_searchbox_top .rs_searchbox_top {
+		text-align:left;
+		border:1px solid #b9b9b9 !important;		
+		border-radius: 10px;		
+		padding:15px !important;
+		
+		width:80%;
+		margin:30px auto 0 !important;
+	}
+	
+.rs_searchbox_top .row > div { padding:2px 4px; }	
+.rs_searchbox_top .row h3 { margin-bottom:5px; }
+
+
+@media only screen and (max-width:992px) {	
+	.rs_searchbox_top .rs_searchbox_top { width:90%; }	
+	main .rs_searchbox_top .rs_searchbox_top .row select { height:40px; }
+	
+	.rs_searchbox_top .rs_searchbox_top  .rs_form_row { margin-bottom:0; }
+	
+	
+	.rs_button, .rs_box button { max-width:100px; margin:10px auto; }
+	
+}
+
+
+
+

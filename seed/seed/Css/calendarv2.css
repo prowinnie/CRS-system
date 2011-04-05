@@ -1,0 +1,30 @@
+.calbordered{float:left;padding:5px;}
+.calbordered .title{font:11px Arial,Helvetica,sans-serif;color:#000;font-weight:bold;margin-bottom:5px;height:auto;width:304px;position:relative;}
+.title .close-icon{position:absolute;right:0;top:0;border:none;}
+.calnavright{position:absolute;top:0;bottom:0;height:12px;right:2px;}
+.calendar{font:1em Arial,Helvetica,sans-serif;text-align:center;}
+.calcontainer{float:left;padding:0px 5px 0px 5px;}
+.cal2upwrapper{*height:1%;}
+.cal2upwrapper:after{content:'.';clear:both;display:block;visibility:hidden;height:0;}
+.calcontainer .cal2up{float:left;}
+td.calcell{width:1.5em;height:1em;border:1px solid #e0e0e0;background-color:#fff;font:1.05em Arial,Helvetica,sans-serif;}
+td.calcell a{color:#555;text-decoration:none;}
+td.calcell.today{background-color:#F8E7C9;}
+td.calcell.oom{cursor:default;color:#999999;background-color:#e5e5e5;border:1px solid #e0e0e0;}
+td.calcell.selected{color:#2b75d1;background-color:#FFFF00;border:1px solid #fff;}
+td.calcell.selected a{color:#2b75d1;}
+td.calcell.calcellhover{cursor:pointer;color:#fff;background-color:#66CCFF;border:1px solid #fff;}
+td.calcell.calcellhover a{color:#fff;}
+td.calcell.highlight{color:#2B75D1;background-color:#FFFF99;border:1px solid #fff;}
+td.calcell.previous{color:#ccc;}
+.calhead{border:1px solid #bd362a;vertical-align:middle;background-color:#3399CC;color:#fff;}
+.calheader{position:relative;width:100%;}
+.calweekdaycell{color:#555;font-weight:normal;font-style:italic;}
+.calrowhead{border-right-width:2px;}
+.caltpbg_a, .caltpbg_b{width:175px;height:210px;font-size:11px;z-index:1000;}
+#calendarBoxArrive, #calendarBoxDepart{width:151px;text-align:center;color:#000;border-top:solid 1px #a8a8a8;border-left:solid 1px #a8a8a8;border-bottom:solid 2px #555;border-right:solid 2px #555;background-color:#fff;height:180px;position:absolute;}
+.cal_title{font-size:12px;font-weight:bold;padding-bottom:10px;padding-left:5px;text-align:left;}
+.close_cal, .next_cal, .prev_cal{color:#1a74c8;}
+.calnavleft{position:absolute;background-repeat:no-repeat;background-image:url(https://images.wctravel.com/images-general/calendar/left.gif);cursor:pointer;top:1px;bottom:0;width:12px;height:12px;left:2px;}
+.calnavright{position:absolute;background-repeat:no-repeat;background-image:url(https://images.wctravel.com/images-general/calendar/right.gif);cursor:pointer;top:1px;bottom:0;width:12px;height:12px;right:2px;}
+.close-calendar{position:absolute;cursor:pointer;right:0;top:0;border:0;}

@@ -1,0 +1,31 @@
+body.calendar{margin:0;background-color:#fff;padding:1px 0px 0px 0px;font:bold 10px arial,helvetica,sans-serif;text-align:center}
+#calbox a.cal{text-decoration:none;color:#000;}
+#calbox a.cal:hover{text-decoration:underline;}
+#calbox table{border-collapse:collapse;}
+#calbox .calTableH{margin:4px 0px 0px 6px;width:127px;empty-cells:show;border:1px solid #ccc;float:left;display:inline;}
+#calbox .calTableV{margin:4px 0px 0px 6px;width:127px;empty-cells:show;border:1px solid #ccc;}
+#calbox .calLabel{font:700 11px arial,helvetica,sans-serif;color:#000;text-align:center;background-color:#fff;padding:1px;line-height:18px;white-space:nowrap}
+#calbox .calDayName{background:#000;color:#fff;font:500 10px arial,helvetica,sans-serif;text-align:center;width:19px;border:1px solid #000;}
+#calbox .calDate{text-align:center;font:500 10px arial,helvetica,sans-serif;background:#fff;line-height:13px;}
+#calbox .calDateOff{color:#000;font:400 10px arial,helvetica,sans-serif;text-align:center;background:#fff;line-height:13px;}
+#calbox .calDateSel{background:#999;text-align:center;font:bold 10px arial,helvetica,sans-serif;line-height:13px;}
+#calbox .calDateRng{background:#ccc;text-align:center;font:bold 10px arial,helvetica,sans-serif;line-height:13px;}
+#calbox .calDateA{text-decoration:underline;color:#000;}
+#calbox .calDateA:hover{text-decoration:none;}
+# leave alone
+#calbox .calNavA{font:11px arial,helvetica,sans-serif;text-decoration:none;color:#000;padding:0 5px;display:block;clear:both;}
+#calbox a.calNavA:hover{text-decoration:underline;}
+# leave alone
+#noprevious,#previous{line-height:16px;}
+#calbox .calClose{font-size:10px;padding:0 0 2px 0;text-align:left;color:#000;}
+#calbox .calClose a{float:right;text-decoration:none;color:#fff;background:#000;padding-left:2px;padding-right:2px;line-height:10px;border-style:solid;border-width:1px 1px 2px 2px;border-color:#ccc #000 #000 #6A87A7;}
+#calbox .calClose a:hover{border-color:#000 #ccc #ccc #000;}
+#calwrapper{margin:auto;width:272px;}
+.calframe{height:283px;width:140px;border-width:0px;}
+.calboxon_216{z-index:5;height:283px;width:140px;position:absolute;margin-top:300px;margin-left:350px;display:block;font:bold 10px arial,helvetica,sans-serif;text-align:center}
+.calboxon_216_newps{z-index:5;height:283px;width:140px;position:absolute;margin-top:300px;margin-left:450px;display:block;font:bold 10px arial,helvetica,sans-serif;text-align:center}
+.calboxon_323{z-index:5;height:283px;width:140px;position:absolute;margin-top:150px;margin-left:450px;display:block;font:bold 10px arial,helvetica,sans-serif;text-align:center}
+.calboxon_648{z-index:5;height:283px;width:140px;position:absolute;margin-top:100px;margin-left:45px;display:block;font:bold 10px arial,helvetica,sans-serif;text-align:center}
+.calboxoff{height:1px;width:1px;overflow:hidden;position:absolute;top:0px;left:0px;visibility:hidden;display:none;}
+.cbCal{margin-top:0px;cursor:pointer;cursor:hand;vertical-align:bottom;padding-right:0px;padding-left:2px}
+#cb .cbrowon{background:#ffc;}

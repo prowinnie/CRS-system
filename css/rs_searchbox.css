@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+a img {
+    border: none;
+}
+.clear {
+    clear: both;
+}
+.searchWrapper {
+    max-width: 463px;
+}
+.searchWrapper * {
+    box-sizing: border-box;
+}
+.searchWrapper .rs_searchbox {
+    padding: 28px 40px 40px;
+    color: #333333;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    vertical-align: middle;
+    background-color: white;
+    position: relative;
+}
+.searchWrapper .rs_searchbox .rs_search_form {
+    clear: both;
+    position: relative;
+}
+.searchWrapper .rs_searchbox .rs_product_title {
+    margin: 0 0 25px;
+    color: #333333;
+    font-size: 28px;
+    font-weight: 400;
+}
+.searchWrapper .rs_searchbox .rs_autosuggest,
+.searchWrapper .rs_searchbox .rs_chk_in,
+.searchWrapper .rs_searchbox .rs_chk_out,
+.searchWrapper .rs_searchbox .rs_time_in
+.searchWrapper .rs_searchbox .rs_autosuggest,
+.searchWrapper .rs_searchbox .rs_chk_in,
+.searchWrapper .rs_searchbox .rs_chk_out,
+.searchWrapper .rs_searchbox .rs_time_out,
+.searchWrapper .rs_searchbox .rs_type,
+.searchWrapper .rs_searchbox .rs_agency,
+.searchWrapper .rs_searchbox .rs_coupon
+{
+
+    color: #555555;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    background-color: #eceaeb;
+    border: none;
+    outline: none;
+	
+	
+	
+	
+	
+}
+.searchWrapper .rs_searchbox .rs_form_row {
+    margin-bottom: 16px;
+}
+.searchWrapper .rs_searchbox .rs_car_form .rs_pickup_div,
+.searchWrapper .rs_searchbox .rs_car_form .rs_droppff_div {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin-bottom: 12px;
+    vertical-align: middle;
+}
+.searchWrapper .rs_searchbox .rs_car_form .rs_different_location {
+	margin-bottom: 12px;
+}
+.searchWrapper .rs_searchbox .rs_car_form .rs_different_location input {
+    float: left;
+    margin-top: 4px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.searchWrapper .rs_searchbox .rs_autosuggest,
+.searchWrapper .rs_searchbox .rs_chk_in,
+.searchWrapper .rs_searchbox .rs_chk_out {
+    background-color: #eceaeb !important;
+    height: 44px;
+    width: 100%;
+    padding: 10px 20px;
+	
+}
+.searchWrapper .rs_searchbox .rs_car_form .rs_droppff_div {
+    display: none;
+}
+.searchWrapper .rs_searchbox .rs_date_input_container {
+    position: relative;
+    cursor: pointer;
+}
+.searchWrapper .rs_searchbox .rs_date_input_container input {
+    display: block;
+}
+.searchWrapper .rs_searchbox .rs_chk_in,
+.searchWrapper .rs_searchbox .rs_chk_out {
+    text-indent: 25px;
+    cursor: pointer;
+    background-image: url(../images/calendar.png);
+    background-position: 15px center;
+    background-repeat: no-repeat;
+}
+
+.searchWrapper .rs_searchbox .rs_mobi {
+    display: none;
+}
+.searchWrapper .rs_searchbox .rs_mobi_date_container {
+    width: 48%;
+    color: #555555;
+    background-color: #eceaeb;
+    display: inline-block;
+    zoom: 1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.searchWrapper .rs_searchbox .rs_mobi_title {
+    padding: 5px 0;
+}
+.searchWrapper .rs_searchbox .rs_mobi_chk_day {
+    font-size: 40px;
+    font-weight: 700;
+}
+.searchWrapper .rs_searchbox .rs_mobi_chk_month {
+    margin-bottom: 5px;
+}
+.searchWrapper .rs_searchbox .rs_mobi_in {
+    float: left;
+}
+.searchWrapper .rs_searchbox .rs_mobi_out {
+    float: right;
+}
+.searchWrapper .rs_searchbox .rs_autosuggest_row {
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+}
+.searchWrapper .rs_searchbox .rs_date {
+    display: inline-block;
+    width: 48%;
+    margin-right: 4%;
+    vertical-align: middle;
+    float: left;
+}
+.searchWrapper .rs_searchbox .rs_time_row {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    float: left;
+    background-color: #eceaeb;
+    background-image: url(../images/time.png);
+	padding: 0px 10px;
+    background-position: 15px;
+    background-repeat: no-repeat;
+}
+.searchWrapper .rs_searchbox .rs_advanced_row {
+    display: inline-block;
+    width: 48%;
+    margin-right: 4%;
+    vertical-align: middle;
+    float: left;
+    background-color: #eceaeb;
+}
+.searchWrapper .rs_searchbox .rs_agency_row {
+    margin-right: 0;
+}
+.searchWrapper .rs_searchbox .rs_time,
+.searchWrapper .rs_searchbox .rs_type,
+.searchWrapper .rs_searchbox .rs_agency {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    height: 44px;
+    padding: 0 15px;
+    border: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 92% center;
+}
+
+.searchWrapper .rs_searchbox .rs_coupon
+{
+    width: 100%;
+    display: inline-block;
+    float: left;
+    height: 44px;
+    padding: 0 15px;
+    border: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 92% center;
+}
+
+.searchWrapper .rs_searchbox .rs_time {
+    text-indent: 8mm;
+	
+}
+.searchWrapper .rs_searchbox .rs_button_row {
+    display: inline-block; 
+    width: 100%;
+    vertical-align: middle;
+    position: relative;
+}
+.searchWrapper .rs_searchbox .rs_search {
+    width: 100%;
+    height: 53px;
+    line-height: 48px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #f48020;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    transition: opacity 0.5s ease;
+}
+.searchWrapper .rs_searchbox .rs_search:hover {
+    opacity: 0.8;
+}
+@media only screen and (max-width: 400px) {
+    .searchWrapper .rs_searchbox {
+        padding: 15px;
+    }
+    .searchWrapper .rs_searchbox .rs_product_title {
+        margin-bottom: 15px;
+        font-size: 21px;
+    }
+    .searchWrapper .rs_searchbox .rs_form_row {
+    	margin-bottom: 10px;
+    }
+    .searchWrapper .rs_searchbox .rs_autosuggest {
+        padding: 5px 10px;
+    }
+/*    .searchWrapper .rs_searchbox .rs_date {
+        display: none;
+    }*/
+    .searchWrapper .rs_searchbox .rs_time_row {
+        /*background-image: none;*/
+        background-position: 13px;
+    }
+/*    .searchWrapper .rs_searchbox .rs_time_in_row {
+        margin-right: 4%;
+    }*/
+    .searchWrapper .rs_searchbox .rs_time {
+        text-indent: 0;
+        padding-left: 31px;
+    }
+/*    .searchWrapper .rs_searchbox .rs_mobi {
+        display: block;
+    }*/
+    .searchWrapper .rs_searchbox .rs_search {
+        margin-top: 0;
+    }
+}
